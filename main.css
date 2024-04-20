@@ -452,6 +452,20 @@ footer {
     }
 }
 
+@media(max-width:800px) {
+    .eye {
+        width: 60px;
+        top: auto;
+    }
+}
+
+@media(max-width:800px) {
+    .target {
+        width: 60px;
+        top: auto;
+    }
+}
+
 
 /* Counter */
 
@@ -753,6 +767,15 @@ footer {
     font-weight: 600 !important;
     position: absolute !important;
     right: 1.5rem !important;
+}
+
+@media(max-width:800px) {
+    .subscribe {
+        width: 100px;
+        font-weight: 600 !important;
+        position: absolute !important;
+        right: 1.5rem !important;
+    }
 }
 
 

@@ -7,6 +7,7 @@
     <title>Agency</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/css/shared.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
@@ -21,10 +22,10 @@
 
         <ul class="nav-links">
             <i class="uil uil-times navCloseBtn"></i>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Testimonial</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
             <i class="uil uil-search search-icon" id="searchIcon"></i>
             <li class="btn-link">
                 <a href="#">
@@ -103,7 +104,7 @@
     </header>
     <div class="container-fluid mt-lg-0 mt-5 p-0">
         <!------------------------------------ Servic-row ------------------------------------>
-        <div class="row bg-white my-2 px-5 d-flex justify-content-center">
+        <div class="row bg-white my-2 px-5 d-flex justify-content-center" id="services">
             <div class="col-12 my-4 text-center">
                 <p class="text-5">Our services</p>
                 <p class="text-6">Growth based services</p>
@@ -148,7 +149,7 @@
         <!------------------------------------ Servic-row ------------------------------------>
 
         <!------------------------------------ Portfolio-row ------------------------------------>
-        <div class="row bg my-5">
+        <div class="row bg my-5" id="portfolio">
             <div class="col-12 my-4 text-center">
                 <p class="text-7">Portfolio</p>
                 <p class="text-6 text-white">Our previous works</p>
@@ -226,7 +227,7 @@
         <!------------------------------------ Portfolio-row ------------------------------------>
 
         <!------------------------------------ About-row ------------------------------------>
-        <div class="row p-3 d-flex justify-content-center">
+        <div class="row p-3 d-flex justify-content-center" id="about">
             <div class="col-12 my-4 text-center">
                 <p class="text-5">About us</p>
                 <p class="text-6">Why we are best</p>
@@ -255,20 +256,20 @@
                 </div><br>
                 <div class="row ml-4">
                     <div class="col-2 p-0">
-                        <img src="img/Eye.png" alt="">
+                        <img src="img/Eye.png" class="eye">
                     </div>
                     <div class="col-10 px-1">
-                        <span class="text-9">Our Vision</span>
-                        <p class="text-8">Lorem ipsum dolor sit amet consectetur. Ut elementum ac eget at. Id et at dui arcu risus.</p>
+                        <span class="text-9 ml-lg-4 ml-4">Our Vision</span>
+                        <p class="text-8 ml-lg-4 ml-4">Lorem ipsum dolor sit amet consectetur. Ut elementum ac eget at. Id et at dui arcu risus.</p>
                     </div>
                 </div><br>
                 <div class="row ml-4">
                     <div class="col-2 p-0">
-                        <img src="img/Target.png" alt="">
+                        <img src="img/Target.png" class="target">
                     </div>
                     <div class="col-10 px-1">
-                        <span class="text-9">Our Vision</span>
-                        <p class="text-8">Lorem ipsum dolor sit amet consectetur. Quam arcu habitasse fusce pharetra.
+                        <span class="text-9 ml-lg-4 ml-4">Our Vision</span>
+                        <p class="text-8 ml-lg-4 ml-4">Lorem ipsum dolor sit amet consectetur. Quam arcu habitasse fusce pharetra.
                         </p>
                     </div>
                 </div>
@@ -280,7 +281,7 @@
         <!------------------------------------ About-row ------------------------------------>
 
         <!------------------------------------ Testimonial-row ------------------------------------>
-        <div class="row bg-2 my-4">
+        <div class="row bg-2 my-4" id="testimonial">
             <div class="col-12 my-4 text-center">
                 <p class="text-7">Testimonial</p>
                 <p class="text-6">What our clients say</p>
